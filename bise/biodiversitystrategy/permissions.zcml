@@ -6,6 +6,12 @@
     
       <!-- -*- extra stuff goes here -*- -->
        <permission
+          id="bise.biodiversitystrategy.AddIndicator"
+	  title="bise.biodiversitystrategy: Add Indicator"
+	  />       
+
+
+       <permission
           id="bise.biodiversitystrategy.AddAction"
 	  title="bise.biodiversitystrategy: Add Action"
 	  />       

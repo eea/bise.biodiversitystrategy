@@ -8,6 +8,7 @@
   -->
 <object name="portal_types" meta_type="Plone Types Tool">
   <!-- -*- extra stuff goes here -*- -->
+  <object name="Indicator" meta_type="Dexterity FTI" />
   <object name="Action" meta_type="Dexterity FTI" />
   <object name="Target" meta_type="Dexterity FTI" />
 </object>
