@@ -6,6 +6,12 @@
     
       <!-- -*- extra stuff goes here -*- -->
        <permission
+          id="bise.biodiversitystrategy.AddAction"
+	  title="bise.biodiversitystrategy: Add Action"
+	  />       
+
+
+       <permission
           id="bise.biodiversitystrategy.AddTarget"
 	  title="bise.biodiversitystrategy: Add Target"
 	  />       

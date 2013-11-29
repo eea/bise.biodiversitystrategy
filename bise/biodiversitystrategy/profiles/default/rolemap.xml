@@ -2,6 +2,11 @@
 <rolemap>
   <permissions>
     <!-- -*- extra stuff goes here -*- -->
+    <permission name="bise.biodiversitystrategy: Add Action" acquire="False">
+      <role name="Manager" />
+      <role name="Site Administrator" /> 
+      <role name="Contributor" />      
+    </permission>
     <permission name="bise.biodiversitystrategy: Add Target" acquire="False">
       <role name="Manager" />
       <role name="Site Administrator" /> 
