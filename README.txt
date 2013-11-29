@@ -2,5 +2,4 @@ Introduction
 ============
 
 
-
-This product may contain traces of nuts.
+Content-types for managing EU Biodiversity Strategy
