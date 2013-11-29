@@ -1,0 +1,17 @@
+bise.biodiversitystrategy Installation
+--------------------------------------
+
+To install bise.biodiversitystrategy using zc.buildout and the plone.recipe.zope2instance
+recipe to manage your project, you can do this:
+
+* Add ``bise.biodiversitystrategy`` to the list of eggs to install, e.g.:
+
+    [buildout]
+    ...
+    eggs =
+        ...
+        bise.biodiversitystrategy
+       
+* Re-run buildout, e.g. with:
+
+    $ ./bin/buildout
