@@ -1,3 +1,4 @@
+from plone.app.contentlisting.interfaces import IContentListing
 from five import grok
 from plone.directives import dexterity, form
 
@@ -58,3 +59,7 @@ class TargetView(grok.View):
     grok.context(ITarget)
     grok.require('zope2.View')
     grok.name('view')
+
+    def list_actions(self):
+        brains = self.context.getFolderContents({'portal_type': 'Action'})
+        return IContentListing(brains)
